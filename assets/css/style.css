@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+}
+
+
+:root {
+    /* color variables */
+    --clr-gray100: #f0f7f8;
+    --clr-gray200: #cfd8dc;
+
+    /* border radius */
+    --radius: 0.2rem;
+    
+}       
+    
+body {
+    font-family: Montserrat,sans-serif;
+    background: var(--clr-gray100);
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+        
+}
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+
+header {
+    padding: 15px 6% 15px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #4a3f90;
+    box-shadow: 0 5px 35px gray;
+
+}
+
+header h1 {
+    background: #6A5ACD;
+    padding: 5px 1% 5px 6%; 
+    margin: 0;
+    font-size: 4vw;
+    font-family: Montserrat,sans-serif;
+    line-height: 1;
+}
+
+nav {
+    /* background:white; */
+    /* box-shadow: 0px 0px 10px var(--clr-gray200); */
+    margin:0;
+    padding:1rem 0;
+    /* border-radius:var(--radius); */
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color:black;
+    padding: 5px 10px; 
+    margin-right: 10px;
+    transition:all all 0.25s ease-in;
+    font-weight: bold;
+    font-size: 1.4rem;
+    background-position: bottom;
+    background-size: 100% 0.2em;
+     /* box-shadow: 0px 0px 10px var(--clr-gray200);
+     border-radius:var(--radius); */
+
+}    
+
+nav a:hover{ 
+    background-size: 100% 100%;
+    color: #7B68EE;
+  
+
+}  
+
+.hero{
+
+   
+    background-image: url("https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?cs=srgb&dl=pexels-negative-space-97077.jpg&fm=.jpg");
+    background-size: cover;
+    background-position: center;  
+    background-blend-mode: soft-light;
+    min-height: 60vh;
+    color: var(--light);
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    
+
+}    
+ .hero div {
+    flex: 0 0 90%;
+  }
+.hero h2{
+
+    transform: translate(50%, 25%);
+   
+    color: black; 
+    background-color:rgb(136, 136, 245);
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 2.3rem;
+    line-height: 1.2;
+    display: inline;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 45px;
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+  
+ 
+  
+  .pageSection {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  
+  .pageSection > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid black;
+    font-size: 4vw;
+    line-height: 1.1;
+  }
+  
+  .pageSection > div {
+    flex: 0 0 77%;
+  }
+  
+  .pageSection p {
+    margin-bottom: 20px;
+  }
+  
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .flex-item {
+    border: 5px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+    background-position: center;
+  }
+  
+  /* feature first portfolio item */
+  .flex-item:first-child {
+      min-height: 400px;
+      flex-basis: 100%;
+  }
+  
+  .flex-item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .flex-item div {
+    background-color: var(--clr-gray200);
+    padding: 8px 10px;
+  }
+  
+  .flex-item h3 {
+    font-size: 1.6rem;
+    
+  }
+  
+  .contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .contact address a {
+    color: var(--tertiary);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: normal;
+    background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+  }
+  
+  .contact address a:hover {
+    background-size: 100% 88%;
+    color: var(--clr-gray200);
+  }
+  
+  /* portfolio project images */
+  .code {
+    background-image: url("https://i.ytimg.com/vi/vhYK3pDUijk/hqdefault.jpg");
+  }
+  
+  .run {
+    background-image: url("https://png.clipart.me/istock/previews/7107/7107873-running-shoes-with-5k-as-stitching.jpg");
+    
+}
+  
+  .led {
+    background-image: url("https://www.webstackacademy.com/wp-content/uploads/2017/07/css3.jpg");
+  }
+  
+  .calc {
+    background-image: url("https://th.bing.com/th/id/OIP.01lBDpUP1EdbJZdnwi4hXQAAAA?pid=ImgDet&rs=1");
+  }
+  
+ 
+  .puzzle {
+    background-image: url("https://cdn.auth0.com/blog/new-bootstrap4/logo.png");
+  }
+  
+  /* end portfolio project images */
+  
+  @media screen and (max-width: 980px) {
+    header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
+    }
+  
+    header nav {
+      justify-content: center;
+    }
+  
+    .pageSection > h2,
+    .pageSection > div {
+      flex: 0 0 100%;
+    }
+  
+    .pageSection > h2 {
+      border-right: none;
+      border-bottom: 4px solid var(--primary);
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      text-align: left;
+      font-size: 7vw;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .flex-item,
+    .flex-item:first-child {
+      flex-basis: 100%;
+    }
+  
+    .flex-item:first-child {
+      min-height: 150px;
+    }
+  
+    .hero {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .contact address {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+
