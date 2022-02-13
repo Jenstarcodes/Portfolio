@@ -16,7 +16,7 @@ CSS
 
 ### Screen Shot
 
-![Portfolio Screenshot]()
+![Portfolio Screenshot]("C:\Users\12155\Documents\CSS Professional PortfolioImage_files")
 
 ## User Story
 AS AN employer
