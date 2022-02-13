@@ -16,7 +16,7 @@ CSS
 
 ### Screen Shot
 
-![Portfolio Screenshot]("C:\Users\12155\Downloads\_C__Users_12155_Documents_UCF_Homework_Portfolio_index.html.png")
+![Portfolio Screenshot](C:\Users\12155\Downloads\_C__Users_12155_Documents_UCF_Homework_Portfolio_index.html.png)
 
 ## User Story
 AS AN employer
