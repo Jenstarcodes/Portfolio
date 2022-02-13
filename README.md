@@ -16,7 +16,7 @@ CSS
 
 ### Screen Shot
 
-[_C__Users_12155_Documents_UCF_Homework_Portfolio_index html](https://user-images.githubusercontent.com/95147890/153733938-652ee721-5397-4a92-947b-0f94ce12b92b.png)
+![Portfolio screenshot](https://user-images.githubusercontent.com/95147890/153733938-652ee721-5397-4a92-947b-0f94ce12b92b.png)
 
 ## User Story
 AS AN employer
