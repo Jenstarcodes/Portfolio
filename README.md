@@ -16,8 +16,7 @@ CSS
 
 ### Screen Shot
 
-![Portfolio screenshot](https://user-images.githubusercontent.com/95147890/153733938-652ee721-5397-4a92-947b-0f94ce12b92b.png)
-
+![Portfolio](https://user-images.githubusercontent.com/95147890/153789755-47bf68be-f952-4961-9f20-565519690126.png)
 
 ## User Story
 AS AN employer
