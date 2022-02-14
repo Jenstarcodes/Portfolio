@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-
+/* Calling out colors and radius used more than onece */
 :root {
     /* color variables */
     --clr-gray100: #f0f7f8;
@@ -27,9 +27,7 @@ h3,
 h4 {
     margin: 0;
 }
-p {
-    margin: 0;
-}
+
 
 header {
     padding: 15px 6% 15px 0;
@@ -40,12 +38,12 @@ header {
     align-items: center;
     background-color: #4a3f90;
     box-shadow: 0 5px 35px gray;
-
 }
+
 
 header h1 {
     background: #6A5ACD;
-    padding: 5px 1% 5px 6%; 
+    padding: 5px 1% 5px 6%;     
     margin: 0;
     font-size: 4vw;
     font-family: Montserrat,sans-serif;
@@ -67,7 +65,7 @@ nav {
 
 }
 
-
+/* Navigation */
 
 nav a {
     text-decoration: none;
@@ -90,7 +88,7 @@ nav a:hover{
   
 
 }  
-
+/* Hero section */
 .hero{
 
    
@@ -251,7 +249,7 @@ main {
   }
   
   .calc {
-    background-image: url("https://th.bing.com/th/id/OIP.01lBDpUP1EdbJZdnwi4hXQAAAA?pid=ImgDet&rs=1");
+    background-image: url("https://user-images.githubusercontent.com/95147890/153770143-41eea6aa-f6d5-4ac4-aca1-ed4593541a41.png");
   }
   
  
@@ -294,6 +292,7 @@ main {
     }
   }
   
+  /* Media Queries */
   @media screen and (max-width: 768px) {
     .flex-item,
     .flex-item:first-child {
